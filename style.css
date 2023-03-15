@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #1b1b1b;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    height: 70px;
+    margin: auto;
+}
+
+
+nav .logo{
+    float: left;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 60px;
+    margin-top: 20px;
+}
+
+nav .logo span{
+    color: #b77ef7;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 450px;
+    position: relative;
+}
+
+/* to make the list in one line */
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* for decoration of nav list */
+nav ul li a{
+    color: aliceblue;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+/* to chnge the color of nav list by hover */
+nav ul li a:hover{
+    color: #b77ef7;
+    border-radius: 5px;
+    background-color: #272626;
+}
+
+/* for dropdwon of traning element  */
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    visibility: hidden;
+    background-color: #101010;
+    border-radius: 5px;
+}
+
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 300px;
+    display: list-item;
+}
+nav ul ul li a:hover{
+    color: #b77ef7;
+}
+
+/* to show the dropdown menu by hover */
+nav ul li:hover>ul{
+    visibility: visible;
+    top: 70px;
+    
+}
+
+/* for space btw box/list */
+nav ul ul li a {
+    line-height: 50px;
+}
+
+/* by hover ul ul list background color will change */
+nav ul ul li:hover{
+    background-color: #272626; 
+    border-radius: 5px;
+ }
+
+
+ /* //// btn //// */
+ .btn{
+    float: right;
+    top: 15px;
+    margin-right: -782px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ .btn:hover{
+    border-radius: 5px;
+    background-color: #272626;
+ }
+
+ .btn a{
+    color: aliceblue;
+    font-size: 18px;
+ }
+
+ .btn a:hover{
+    color: #b77ef7;
+ }
+
